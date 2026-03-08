@@ -13,7 +13,7 @@ st.caption("▶️ puedes probar con textos pre escritos")
 
 
 if input_df is not None:
-    st.caption("✅ Estos son tus datos")
+    st.caption("✅ Datos de prueba")
     event = st.dataframe(
         input_df.drop(input_df.columns[1], axis=1, inplace=False),
         on_select="rerun",
